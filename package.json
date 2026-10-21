@@ -1,0 +1,32 @@
+{
+  "name": "tv-exercise-figures",
+  "version": "1.0.0",
+  "description": "32 animated stick-figure exercise demos for TV and web apps: pose keyframes, a tiny 2-joint IK solver, a name matcher, and self-animating SVGs.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "svg"
+  ],
+  "scripts": {
+    "build:svgs": "tsx scripts/build-svgs.ts",
+    "check": "tsx scripts/check.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  },
+  "keywords": [
+    "fitness",
+    "exercise",
+    "animation",
+    "svg",
+    "react-native",
+    "fire-tv",
+    "vega"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sin-Kid/tv-exercise-figures"
+  }
+}
